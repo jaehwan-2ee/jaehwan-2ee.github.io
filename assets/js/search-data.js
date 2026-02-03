@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "PUBLICATIONS",
-          description: "This page contains publications and papers under review.",
+          description: "This page contains my publications and papers under review.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-news",
           title: "NEWS",
-          description: "This page contains news.",
+          description: "This page contains announcements for my research.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
@@ -398,16 +398,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-join-systems-modeling-and-programming-lab-yonsei-symply-as-an-undergraduate-researcher",
+          title: 'Join SYstems Modeling and Programming Lab @ Yonsei (SYMPLY) as an Undergraduate Researcher....',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-a-paper-got-accepted-to-ieee-transactions-on-smart-grid-ieee-tsg",
+          title: 'A paper got accepted to IEEE Transactions on Smart Grid (IEEE TSG).',
           description: "",
-          section: "News",},{id: "news-join-systems-modeling-and-programming-lab-yonsei-symply-as-an-undergraduate-researcher",
-          title: 'Join SYstems Modeling and Programming Lab @ Yonsei (SYMPLY) as an Undergraduate Researcher!...',
+          section: "News",},{id: "news-join-computational-optimization-methods-comet-lab-as-a-graduate-researcher",
+          title: 'Join Computational Optimization Methods (COMET) Lab as a Graduate Researcher.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
