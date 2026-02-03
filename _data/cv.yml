@@ -134,19 +134,21 @@ cv:
         end_date: "2022-12"
 
     Awards:
-      - title: 2nd Prize, BIG CONTEST 2023
-        date: "2023-12"
-        summary: Big Data Analysis with Emerging Technology
+      - name: 2nd Prize, BIG CONTEST 2023
+        start_date: "2023-12"
+        highlights:
+          - "Part: Big Data Analysis with Emerging Technology"
 
-      - title: 4th Prize, BIG CONTEST 2022
-        date: "2022-12"
-        summary: Big Data Analysis for Innovation
+      - name: 4th Prize, BIG CONTEST 2022
+        start_date: "2022-12"
+        highlights:
+          - "Part: Big Data Analysis for Innovation"
 
     Honors:
-      - title: Academic Honors, Spring 2022
-        date: "2022-08"
-        awarder: Yonsei University
+      - name: Academic Honors, Spring 2022
+        location: Yonsei University
+        start_date: "2022-08"
 
-      - title: Academic Excellence, Fall 2021
-        date: "2021-02"
-        awarder: Yonsei University
+      - name: Academic Excellence, Fall 2021
+        location: Yonsei University
+        start_date: "2021-02"
