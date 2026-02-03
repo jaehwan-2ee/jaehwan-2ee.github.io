@@ -151,6 +151,29 @@ td.list-group-link {
 }
 
 /*****************************
+ * CV GRID styles (Skills, Languages, Interests)
+ *****************************/
+
+.cv-grid {
+  margin: 0;
+}
+
+.cv-grid-item {
+  padding: 0.5rem 0;
+}
+
+.cv-grid-title {
+  color: var(--global-theme-color);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.cv-grid-content {
+  font-size: 0.9rem;
+  padding: 0.1rem 0;
+}
+
+/*****************************
  * CV TOC styles
  *****************************/
 

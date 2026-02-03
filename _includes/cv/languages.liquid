@@ -1,39 +1,16 @@
 {% comment %}
-  Unified languages entry renderer for both formats - Two column grid layout
-  - RenderCV uses: name, summary
-  - JSONResume uses: language, fluency
+  Languages renderer - Two column grid layout
 {% endcomment %}
 
-<div class="row">
+<div class="row cv-grid">
   {% for entry in entries %}
-    <div class="col-md-6">
-      <div class="language-item">
-        {% if entry.icon %}
-          <i class="{{ entry.icon }}"></i>
-        {% endif %}
-        {% capture lang_name %}
-          {% if entry.name %}{{ entry.name }}{% elsif entry.language %}{{ entry.language }}{% endif %}
-        {% endcapture %}
-        {% capture fluency %}
-          {% if entry.summary %}{{ entry.summary }}{% elsif entry.fluency %}{{ entry.fluency }}{% endif %}
-        {% endcapture %}
-        <strong class="language-title">{{ lang_name | strip }}</strong>
-        <div class="language-fluency">{{ fluency | strip }}</div>
+    <div class="col-6">
+      <div class="cv-grid-item">
+        {% capture lang_name %}{% if entry.name %}{{ entry.name }}{% elsif entry.language %}{{ entry.language }}{% endif %}{% endcapture %}
+        {% capture fluency %}{% if entry.summary %}{{ entry.summary }}{% elsif entry.fluency %}{{ entry.fluency }}{% endif %}{% endcapture %}
+        <div class="cv-grid-title">{{ lang_name | strip }}</div>
+        <div class="cv-grid-content">{{ fluency | strip }}</div>
       </div>
     </div>
   {% endfor %}
 </div>
-
-<style>
-  .language-item {
-    padding: 0.5rem 0;
-  }
-  .language-title {
-    color: var(--global-theme-color);
-    display: block;
-    margin-bottom: 0.25rem;
-  }
-  .language-fluency {
-    padding: 0.1rem 0;
-  }
-</style>

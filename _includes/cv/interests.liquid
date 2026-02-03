@@ -1,49 +1,18 @@
 {% comment %}
-  Unified interests entry renderer for both formats - Two column grid layout
+  Interests renderer - Two column grid layout
 {% endcomment %}
 
-<div class="row">
+<div class="row cv-grid">
   {% for entry in entries %}
-    <div class="col-md-6">
-      <div class="interest-item">
-        {% if entry.icon %}
-          <i class="{{ entry.icon }}"></i>
-        {% endif %}
-        <strong class="interest-title">{{ entry.name }}</strong>
+    <div class="col-6">
+      <div class="cv-grid-item">
+        <div class="cv-grid-title">{{ entry.name }}</div>
         {% if entry.keywords %}
-          <ul class="interest-keywords">
-            {% assign keywords_array = entry.keywords | split: ", " %}
-            {% if keywords_array.size > 1 %}
-              {% for keyword in keywords_array %}
-                <li>{{ keyword }}</li>
-              {% endfor %}
-            {% else %}
-              {% for keyword in entry.keywords %}
-                <li>{{ keyword }}</li>
-              {% endfor %}
-            {% endif %}
-          </ul>
+          {% for keyword in entry.keywords %}
+            <div class="cv-grid-content">{{ keyword }}</div>
+          {% endfor %}
         {% endif %}
       </div>
     </div>
   {% endfor %}
 </div>
-
-<style>
-  .interest-item {
-    padding: 0.5rem 0;
-  }
-  .interest-title {
-    color: var(--global-theme-color);
-    display: block;
-    margin-bottom: 0.25rem;
-  }
-  .interest-keywords {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-  }
-  .interest-keywords li {
-    padding: 0.1rem 0;
-  }
-</style>
