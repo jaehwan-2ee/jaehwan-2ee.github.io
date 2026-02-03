@@ -40,7 +40,7 @@ cv:
         url: http://comet.kaist.ac.kr/
         start_date: "2025-02"
         end_date: present
-        summary: Supervised by Prof. Changhyun Kwon
+        summary: Supervised by [Prof. Changhyun Kwon](https://www.chkwon.net)
 
       - company: Computational Optimization Methods (COMET) Lab
         position: Undergraduate Researcher
@@ -48,7 +48,7 @@ cv:
         url: http://comet.kaist.ac.kr/
         start_date: "2024-06"
         end_date: "2024-08"
-        summary: Supervised by Prof. Changhyun Kwon
+        summary: Supervised by [Prof. Changhyun Kwon](https://www.chkwon.net)
 
       - company: Systems Modeling And Programming Lab @ Yonsei (SYMPLY)
         position: Undergraduate Researcher
@@ -56,7 +56,7 @@ cv:
         url: https://symply.yonsei.ac.kr/
         start_date: "2022-08"
         end_date: "2024-06"
-        summary: Supervised by Prof. Soongeol Kwon
+        summary: Supervised by (Prof. Soongeol Kwon)[https://drive.google.com/file/d/1T-sdUcjjfMZy9ICT4Ll4L-I5lR3L0ZCU/view]
 
     Publications:
       - title: "Supervised Optimization Framework for Charging and Discharging Controls of Battery Energy Storage"
@@ -69,13 +69,6 @@ cv:
         summary: "IEEE Transactions on Smart Grid, 2024, 15.6: 5610-5621."
 
     Projects:
-      - name: Quantum Decision-Focused Learning
-        summary: Studying and developing quantum decision-focused learning framework with GS CAUS
-        start_date: "2025-09"
-        end_date: present
-        highlights:
-          - "Tools & technologies: Python, Qiskit, Gurobi"
-
       - name: Neural Combinatorial Optimization with Decision Transformer Framework
         summary: Reinforcement Learning Team Project
         start_date: "2024-05"
@@ -98,12 +91,12 @@ cv:
           - Python
           - C++
 
-      - name: Research Methods
+      - name: Tools
         keywords:
-          - Qauntum Optimization
-          - Large-scale Optimization
-          - Machine Learning
-          - LLMs
+          - PennyLane
+          - Qiskit
+          - Gurobi
+          - ORTools
 
     Languages:
       - name: Korean
@@ -115,14 +108,15 @@ cv:
     Interests:
       - name: Optimization
         keywords:
-          - Vehicle Routing
-          - Decomposition Methods
-          - Quantum Computing
+          - Data-driven Optimization
+          - Contextual Optimization
+          - Combinatorial Optimization
 
-      - name: AI
+      - name: Quantum
         keywords:
-          - Large Language Models (LLMs)
-          - Reinforcement Learning
+          - Quantum Machine Learning
+          - Variational Quantum Algorithms
+          - Quantum Optimization
 
     Awards:
       - title: 2nd Prize, 11th BIG CONTEST 2023
