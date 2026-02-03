@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Curriculum Vitae of Jaehwan Lee",
+          description: "This is the page for my Curriculum Vitae (CV).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
