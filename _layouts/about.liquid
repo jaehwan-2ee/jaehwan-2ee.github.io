@@ -40,12 +40,16 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Divider after intro -->
+    <hr style="margin: 2rem 0;">
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">NEWS</a>
       </h2>
       {% include news.liquid limit=true %}
+      <hr style="margin: 2rem 0;">
     {% endif %}
 
     <!-- Latest posts -->
@@ -54,6 +58,7 @@ layout: default
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
+      <hr style="margin: 2rem 0;">
     {% endif %}
 
     <!-- Selected papers -->

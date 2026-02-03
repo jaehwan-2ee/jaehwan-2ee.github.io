@@ -2,7 +2,7 @@
 layout: about
 title: ABOUT
 permalink: /
-subtitle: Ph.D Student | jh.lee@kaist.ac.kr
+subtitle: Ph.D Student | jh.lee@kaist.ac.kr | OR + Quantum
 
 profile:
   align: left
