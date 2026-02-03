@@ -5,7 +5,7 @@ permalink: /
 subtitle: Ph.D Student | jh.lee@kaist.ac.kr
 
 profile:
-  align: right
+  align: left
   image: jaehwan_1.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
