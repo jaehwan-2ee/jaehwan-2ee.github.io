@@ -66,7 +66,7 @@ cv:
         journal: IEEE Transactions on Smart Grid
         releaseDate: "2024"
         url: https://doi.org/10.1109/TSG.2024.3416369
-        summary: "Nov. 2024. Vol. 15, No. 6, pp. 5610-5621."
+        summary: "Vol. 15, No. 6, pp. 5610-5621. Nov. 2024."
 
     Projects:
       - name: Neural Combinatorial Optimization with Decision Transformer Framework
