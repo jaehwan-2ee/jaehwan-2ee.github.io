@@ -1,5 +1,8 @@
 {% comment %}
-  Unified interests entry renderer for both formats
+  Unified interests entry renderer for both RenderCV and JSONResume formats
+  Supports both naming conventions:
+  - RenderCV: label, details (string)
+  - JSONResume: name, keywords (list or string)
 {% endcomment %}
 
 <div class="card-text font-weight-light">
@@ -8,15 +11,31 @@
       {% if entry.icon %}
         <i class="{{ entry.icon }}"></i>
       {% endif %}
-      <strong>{{ entry.name }}:</strong>
-      {% if entry.keywords %}
-        {% for keyword in entry.keywords %}
-          {% if forloop.last %}
-            {{ keyword }}
-          {% else %}
-            {{ keyword }},
-          {% endif %}
-        {% endfor %}
+
+      {% comment %} Support both label (RenderCV) and name (JSONResume) {% endcomment %}
+      {% capture interest_name %}
+        {% if entry.label %}{{ entry.label }}{% elsif entry.name %}{{ entry.name }}{% endif %}
+      {% endcapture %}
+
+      <strong>{{ interest_name | strip }}:</strong>
+
+      {% comment %} Support details (RenderCV) and keywords (JSONResume - list or string) {% endcomment %}
+      {% if entry.details %}
+        {{ entry.details }}
+      {% elsif entry.keywords %}
+        {% if entry.keywords.first %}
+          {% comment %} keywords is a list {% endcomment %}
+          {% for keyword in entry.keywords %}
+            {% if forloop.last %}
+              {{ keyword }}
+            {% else %}
+              {{ keyword }},
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% comment %} keywords is a string {% endcomment %}
+          {{ entry.keywords }}
+        {% endif %}
       {% endif %}
     </div>
   {% endfor %}

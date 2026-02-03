@@ -94,11 +94,11 @@ cv:
           - Studied bayesian statistics and bayesian machine learning for quantifying uncertainty.
 
     Skills:
-      - name: Programming
-        keywords: "Python, C++"
+      - label: Programming
+        details: "Python, C++"
 
-      - name: Tools
-        keywords: "PennyLane, Qiskit, Gurobi, ORTools"
+      - label: Tools
+        details: "PennyLane, Qiskit, Gurobi, ORTools"
 
     Languages:
       - name: Korean
@@ -108,11 +108,11 @@ cv:
         summary: Intermediate
 
     Interests:
-      - name: Optimization
-        keywords: "Data-driven Optimization, Contextual Optimization, Combinatorial Optimization"
+      - label: Optimization
+        details: "Data-driven Optimization, Contextual Optimization, Combinatorial Optimization"
 
-      - name: Quantum
-        keywords: "Quantum Machine Learning, Variational Quantum Algorithms, Quantum Optimization"
+      - label: Quantum
+        details: "Quantum Machine Learning, Variational Quantum Algorithms, Quantum Optimization"
 
     Activities:
       - name: Expanded Statistics Club (ESC), 29th
@@ -130,13 +130,11 @@ cv:
     Awards:
       - name: 2nd Prize, BIG CONTEST 2023
         start_date: "2023-12"
-        highlights:
-          - "Big Data Analysis with Emerging Technology"
+        location: Big Data Analysis with Emerging Technology
 
       - name: 4th Prize, BIG CONTEST 2022
         start_date: "2022-12"
-        highlights:
-          - "Big Data Analysis for Innovation"
+        location: Big Data Analysis for Innovation
 
     Honors:
       - name: Academic Honors, Spring 2022
