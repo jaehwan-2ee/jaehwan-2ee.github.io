@@ -12,50 +12,50 @@ cv:
     - network: LinkedIn
       username: jaehwanlee-878400314
     - network: ORCID
-      username: 0009-0003-9985-7118
+      username: "0009-0003-9985-7118"
 
   sections:
     Education:
       - institution: KAIST
         location: Daejeon, Korea
-        url: https://www.kaist.ac.kr/
-        area: Data Science
+        url: https://gsds.kaist.ac.kr
+        area: Graduate School of Data Science
         studyType: Ph.D.
-        start_date: 2025-02
+        start_date: "2025-02"
         end_date: present
 
       - institution: Yonsei University
         location: Seoul, Korea
-        url: https://www.yonsei.ac.kr/
-        area: Applied Statistics
+        url: https://stat.yonsei.ac.kr/
+        area: Department of Applied Statistics
         studyType: B.A.
-        start_date: 2020-03
-        end_date: 2025-02
+        start_date: "2020-03"
+        end_date: "2025-02"
         score: "GPA: 4.16/4.3"
 
     Experience:
       - company: Computational Optimization Methods (COMET) Lab
-        position: Graduate Research Assistant
+        position: Graduate Researcher
         location: Daejeon, Korea
         url: http://comet.kaist.ac.kr/
-        start_date: 2025-02
+        start_date: "2025-02"
         end_date: present
         summary: Supervised by Prof. Changhyun Kwon
 
       - company: Computational Optimization Methods (COMET) Lab
-        position: Undergraduate Research Assistant
+        position: Undergraduate Researcher
         location: Daejeon, Korea
         url: http://comet.kaist.ac.kr/
-        start_date: 2024-06
-        end_date: 2024-08
+        start_date: "2024-06"
+        end_date: "2024-08"
         summary: Supervised by Prof. Changhyun Kwon
 
       - company: Systems Modeling And Programming Lab @ Yonsei (SYMPLY)
-        position: Undergraduate Research Assistant
+        position: Undergraduate Researcher
         location: Seoul, Korea
         url: https://symply.yonsei.ac.kr/
-        start_date: 2022-08
-        end_date: 2024-06
+        start_date: "2022-08"
+        end_date: "2024-06"
         summary: Supervised by Prof. Soongeol Kwon
 
     Publications:
@@ -64,79 +64,93 @@ cv:
           - Jaehwan Lee
           - Soongeol Kwon
         publisher: IEEE Transactions on Smart Grid
-        releaseDate: 2024
+        releaseDate: "2024"
         url: https://doi.org/10.1109/TSG.2024.3416369
         summary: "IEEE Transactions on Smart Grid, 2024, 15.6: 5610-5621."
 
     Projects:
       - name: Quantum Decision-Focused Learning
         summary: Studying and developing quantum decision-focused learning framework with GS CAUS
-        start_date: 2025-09
+        start_date: "2025-09"
         end_date: present
         highlights:
           - "Tools & technologies: Python, Qiskit, Gurobi"
 
       - name: Neural Combinatorial Optimization with Decision Transformer Framework
         summary: Reinforcement Learning Team Project
-        start_date: 2024-05
-        end_date: 2024-05
+        start_date: "2024-05"
+        end_date: "2024-05"
         highlights:
           - "Tools & technologies: Python, PyTorch, OR-Tools"
           - Studied decision transformer framework and traveling salesman problem
 
       - name: Optimizing Energy Consumption by Integrating Machine Learning and Mathematical Optimization
         summary: Final Project in ESC 29th
-        start_date: 2023-05
-        end_date: 2023-05
+        start_date: "2023-05"
+        end_date: "2023-05"
         highlights:
           - "Tools & technologies: Python, Scikit-learn, Gurobi"
           - Studied machine learning techniques and MILP
 
     Skills:
-      - name: Programming Languages
-        level: ""
-        icon: fa-solid fa-code
-        keywords: "C++, Python, Julia"
+      - name: Programming
+        keywords:
+          - Python
+          - Julia
 
-      - name: Research Interests
-        level: ""
-        icon: fa-solid fa-flask
-        keywords: "OR-based Quantum Computing Enhancement, Quantum Computing-based Optimization Acceleration"
+      - name: Research Methods
+        keywords:
+          - Mixed-Integer Programming
+          - Large-scale Optimization
+          - Machine Learning
+          - LLMs
+
+    Languages:
+      - name: Korean
+        summary: Native
+
+      - name: English
+        summary: Fluent
+
+    Interests:
+      - name: Optimization
+        keywords:
+          - Vehicle Routing
+          - Decomposition Methods
+          - Quantum Computing
+
+      - name: AI
+        keywords:
+          - Large Language Models (LLMs)
+          - Reinforcement Learning
 
     Awards:
       - title: 2nd Prize, 11th BIG CONTEST 2023
-        date: 2023-12
-        awarder: BIG CONTEST
+        date: "2023-12"
+        awarder: 11th BIG CONTEST 2023
         authors:
           - Jaehwan Lee
 
       - title: 4th Prize, 10th BIG CONTEST 2022
-        date: 2022-12
+        date: "2022-12"
         awarder: BIG CONTEST
         authors:
           - Jaehwan Lee
 
       - title: 4th Prize, Traditional Culture Youth Entrepreneurship Idea Contest 2022
-        date: 2021-08
+        date: "2021-08"
         awarder: Traditional Culture Youth Entrepreneurship Idea Contest
         authors:
           - Jaehwan Lee
 
       - title: Academic Honors Award, Semester 2022-1
-        date: 2022-08
+        date: "2022-08"
         awarder: Yonsei University
         authors:
           - Jaehwan Lee
 
       - title: Academic Excellence Award, Semester 2021-2
-        date: 2022-02
+        date: "2022-02"
         awarder: Yonsei University
         authors:
           - Jaehwan Lee
-
-    Languages:
-      - name: Korean
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
