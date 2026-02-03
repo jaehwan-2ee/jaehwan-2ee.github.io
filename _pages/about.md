@@ -6,7 +6,7 @@ subtitle: Ph.D Student | jh.lee@kaist.ac.kr
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jaehwan_1.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>KAIST, E2-1, #4222</p>
