@@ -169,6 +169,12 @@ layout: default
               {% elsif section_title == 'Interests' or section_title == 'Academic Interests' %}
                 {% assign entries = section_entries %}
                 {% include cv/interests.liquid %}
+              {% elsif section_title == 'Activities' or section_title == 'Extracurricular' %}
+                {% assign entries = section_entries %}
+                {% include cv/experience.liquid %}
+              {% elsif section_title == 'Honors' %}
+                {% assign entries = section_entries %}
+                {% include cv/awards.liquid %}
               {% elsif section_title == 'Certificates' %}
                 {% assign entries = section_entries %}
                 {% include cv/certificates.liquid %}

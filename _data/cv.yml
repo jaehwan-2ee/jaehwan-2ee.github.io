@@ -109,16 +109,10 @@ cv:
 
     Interests:
       - name: Optimization
-        keywords:
-          - Data-driven Optimization
-          - Contextual Optimization
-          - Combinatorial Optimization
+        keywords: "Data-driven Optimization, Contextual Optimization, Combinatorial Optimization"
 
       - name: Quantum
-        keywords:
-          - Quantum Machine Learning
-          - Variational Quantum Algorithms
-          - Quantum Optimization
+        keywords: "Quantum Machine Learning, Variational Quantum Algorithms, Quantum Optimization"
 
     Activities:
       - name: Expanded Statistics Club (ESC), 29th
@@ -137,18 +131,18 @@ cv:
       - name: 2nd Prize, BIG CONTEST 2023
         start_date: "2023-12"
         highlights:
-          - "Part: Big Data Analysis with Emerging Technology"
+          - "Big Data Analysis with Emerging Technology"
 
       - name: 4th Prize, BIG CONTEST 2022
         start_date: "2022-12"
         highlights:
-          - "Part: Big Data Analysis for Innovation"
+          - "Big Data Analysis for Innovation"
 
     Honors:
       - name: Academic Honors, Spring 2022
-        location: Yonsei University
         start_date: "2022-08"
+        location: Yonsei University
 
       - name: Academic Excellence, Fall 2021
-        location: Yonsei University
         start_date: "2021-02"
+        location: Yonsei University
