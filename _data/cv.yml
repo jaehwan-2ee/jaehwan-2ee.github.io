@@ -63,10 +63,10 @@ cv:
         authors:
           - Jaehwan Lee
           - Soongeol Kwon
-        publisher: IEEE Transactions on Smart Grid
+        journal: IEEE Transactions on Smart Grid
         releaseDate: "2024"
         url: https://doi.org/10.1109/TSG.2024.3416369
-        summary: "IEEE Transactions on Smart Grid, 2024, 15.6: 5610-5621."
+        summary: "Nov. 2024. Vol. 15, No. 6, pp. 5610-5621."
 
     Projects:
       - name: Neural Combinatorial Optimization with Decision Transformer Framework
