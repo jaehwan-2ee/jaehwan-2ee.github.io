@@ -96,11 +96,11 @@ cv:
       - name: Programming
         keywords:
           - Python
-          - Julia
+          - C++
 
       - name: Research Methods
         keywords:
-          - Mixed-Integer Programming
+          - Qauntum Optimization
           - Large-scale Optimization
           - Machine Learning
           - LLMs
@@ -110,7 +110,7 @@ cv:
         summary: Native
 
       - name: English
-        summary: Fluent
+        summary: Intermediate
 
     Interests:
       - name: Optimization
