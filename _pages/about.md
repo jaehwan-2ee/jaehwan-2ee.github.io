@@ -29,4 +29,3 @@ latest_posts:
 ---
 
 Jaehwan Lee is a Ph.D. student in Graduate School of Data Science at KAIST and a member of the [Computational Optimization Methods (COMET) Lab](http://comet.kaist.ac.kr/) led by [Prof. Changhyun Kwon](https://www.chkwon.net/). His current research interests include Quantum Computing and Contextual Optimization.
-
