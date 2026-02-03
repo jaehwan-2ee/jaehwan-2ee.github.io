@@ -11,7 +11,7 @@ cv:
       username: jaehwan-2ee
     - network: LinkedIn
       username: jaehwanlee-878400314
-    - network: orcid
+    - network: ORCID
       username: 0009-0003-9985-7118
 
   sections:
@@ -106,23 +106,33 @@ cv:
     Awards:
       - title: 2nd Prize, 11th BIG CONTEST 2023
         date: 2023-12
-        awarder: ""
+        awarder: BIG CONTEST
+        authors:
+          - Jaehwan Lee
 
       - title: 4th Prize, 10th BIG CONTEST 2022
         date: 2022-12
-        awarder: ""
+        awarder: BIG CONTEST
+        authors:
+          - Jaehwan Lee
 
       - title: 4th Prize, Traditional Culture Youth Entrepreneurship Idea Contest 2022
         date: 2021-08
-        awarder: ""
+        awarder: Traditional Culture Youth Entrepreneurship Idea Contest
+        authors:
+          - Jaehwan Lee
 
       - title: Academic Honors Award, Semester 2022-1
         date: 2022-08
         awarder: Yonsei University
+        authors:
+          - Jaehwan Lee
 
       - title: Academic Excellence Award, Semester 2021-2
         date: 2022-02
         awarder: Yonsei University
+        authors:
+          - Jaehwan Lee
 
     Languages:
       - name: Korean
