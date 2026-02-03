@@ -56,7 +56,7 @@ cv:
         url: https://symply.yonsei.ac.kr/
         start_date: "2022-08"
         end_date: "2024-06"
-        summary: Supervised by (Prof. Soongeol Kwon)[https://drive.google.com/file/d/1T-sdUcjjfMZy9ICT4Ll4L-I5lR3L0ZCU/view]
+        summary: Supervised by [Prof. Soongeol Kwon](https://drive.google.com/file/d/1T-sdUcjjfMZy9ICT4Ll4L-I5lR3L0ZCU/view)
 
     Publications:
       - title: "Supervised Optimization Framework for Charging and Discharging Controls of Battery Energy Storage"
@@ -70,12 +70,12 @@ cv:
 
     Projects:
       - name: Neural Combinatorial Optimization with Decision Transformer Framework
-        summary: Reinforcement Learning Team Project
+        summary: Reinforcement Learning Course Team Project
         start_date: "2024-05"
         end_date: "2024-05"
         highlights:
           - "Tools & technologies: Python, PyTorch, OR-Tools"
-          - Studied decision transformer framework and traveling salesman problem
+          - Conducted research and led team to design neural combinatorial optimization approach based on decision transformer.
 
       - name: Optimizing Energy Consumption by Integrating Machine Learning and Mathematical Optimization
         summary: Final Project in ESC 29th
@@ -83,20 +83,22 @@ cv:
         end_date: "2023-05"
         highlights:
           - "Tools & technologies: Python, Scikit-learn, Gurobi"
-          - Studied machine learning techniques and MILP
+          - Studied predict-then-optimize methodology for optimal energy consumption scheduling.
+
+      - name: Predicting Current Happiness of Seoulites with Happiness Index Data
+        summary: Final Project in ESC 28th
+        start_date: "2022-10"
+        end_date: "2022-11"
+        highlights:
+          - "Tools & technologies: Python, Scikit-learn, Gurobi"
+          - Studied bayesian statistics and bayesian machine learning for quantifying uncertainty.
 
     Skills:
       - name: Programming
-        keywords:
-          - Python
-          - C++
+        keywords: "Python, C++"
 
       - name: Tools
-        keywords:
-          - PennyLane
-          - Qiskit
-          - Gurobi
-          - ORTools
+        keywords: "PennyLane, Qiskit, Gurobi, ORTools"
 
     Languages:
       - name: Korean
@@ -118,33 +120,33 @@ cv:
           - Variational Quantum Algorithms
           - Quantum Optimization
 
+    Activities:
+      - name: Expanded Statistics Club (ESC), 29th
+        position: Vice President
+        location: Yonsei University
+        start_date: "2023-01"
+        end_date: "2023-06"
+
+      - name: Expanded Statistics Club (ESC), 28th
+        position: Member
+        location: Yonsei University
+        start_date: "2022-07"
+        end_date: "2022-12"
+
     Awards:
-      - title: 2nd Prize, 11th BIG CONTEST 2023
+      - title: 2nd Prize, BIG CONTEST 2023
         date: "2023-12"
-        awarder: 11th BIG CONTEST 2023
-        authors:
-          - Jaehwan Lee
+        summary: Big Data Analysis with Emerging Technology
 
-      - title: 4th Prize, 10th BIG CONTEST 2022
+      - title: 4th Prize, BIG CONTEST 2022
         date: "2022-12"
-        awarder: BIG CONTEST
-        authors:
-          - Jaehwan Lee
+        summary: Big Data Analysis for Innovation
 
-      - title: 4th Prize, Traditional Culture Youth Entrepreneurship Idea Contest 2022
-        date: "2021-08"
-        awarder: Traditional Culture Youth Entrepreneurship Idea Contest
-        authors:
-          - Jaehwan Lee
-
-      - title: Academic Honors Award, Semester 2022-1
+    Honors:
+      - title: Academic Honors, Spring 2022
         date: "2022-08"
         awarder: Yonsei University
-        authors:
-          - Jaehwan Lee
 
-      - title: Academic Excellence Award, Semester 2021-2
-        date: "2022-02"
+      - title: Academic Excellence, Fall 2021
+        date: "2021-02"
         awarder: Yonsei University
-        authors:
-          - Jaehwan Lee
