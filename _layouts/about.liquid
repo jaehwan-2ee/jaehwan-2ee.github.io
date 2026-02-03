@@ -32,13 +32,14 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
       </div>
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
+
+    {% if page.profile.more_info %}
+      <div class="more-info" style="margin-top: 1rem;">{{ page.profile.more_info }}</div>
+    {% endif %}
 
     <!-- Divider after intro -->
     <hr style="margin: 2rem 0;">
