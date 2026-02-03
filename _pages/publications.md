@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: PUBLICATIONS
-description: This page contains publications and papers under review.
+description: This page contains my publications and papers under review.
 nav: true
 nav_order: 2
 ---
