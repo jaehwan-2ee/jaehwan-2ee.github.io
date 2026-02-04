@@ -5,6 +5,5 @@ design:
     size: a4
     show_footer: false
     show_top_note: false
-  entry_types:
-    experience_entry:
-      show_time_span: false
+  sections:
+    show_time_spans_in: []
