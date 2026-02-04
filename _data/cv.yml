@@ -90,12 +90,12 @@ cv:
         start_date: "2022-10"
         end_date: "2022-11"
         highlights:
-          - "Tools & technologies: Python, Scikit-learn, Gurobi"
+          - "Tools & technologies: R, RStan, Rcpp"
           - Studied bayesian statistics and bayesian machine learning for quantifying uncertainty.
 
     Skills:
       - label: Programming
-        details: "Python, C++"
+        details: "Python, C++, R"
 
       - label: Tools
         details: "PennyLane, Qiskit, Gurobi, ORTools"
